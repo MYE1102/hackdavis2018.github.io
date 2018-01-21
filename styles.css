@@ -44,7 +44,7 @@ table {
 
 /**************** end CSS RESET (ADD YOUR STYLES BELOW) *************/
 body {
-	font-family: Georgia, serif;
+	font-family: Verdana, serif;
 	background-color: #e5f2d8;
 	color: #312c29;
 }
@@ -98,7 +98,7 @@ nav ul li a {
 	display: block;
 
 	color: white;
-	font-family: Arial, sans-serif;
+	font-family: Verdana, sans-serif;
 	font-size: 24px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -115,41 +115,7 @@ nav ul li:last-of-type a {
 nav ul li a:hover {
 	color: #c558ad;
 }
-/* Style the tab */
-.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-}
 
-/* Style the buttons that are used to open the tab content */
-.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-    background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-    background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-}
 /***************** typography ****************/
 
 h2 {
@@ -168,6 +134,10 @@ p {
 
 #top div {
 	background-color: #f8fff1;
+    color: black;
+}
+h1 {
+    font-weight:bold;
 }
 
 label, input {
@@ -182,14 +152,14 @@ label {
 /***************** middle section styles ****************/
 
 #middle {
-	background-color: #625244;
-	color: #f8fff1;
+	background-color: #e5f2d8;
+	color: black;
 }
 
 #middle div {
-	background-color: #584a3d;
+	background-color: #e5f2d8;
 }
 
 #middle h2, th {
-	color: #90f3f3;
+	color: black;
 }
