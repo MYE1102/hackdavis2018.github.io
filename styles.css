@@ -1,0 +1,161 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**************** end CSS RESET (ADD YOUR STYLES BELOW) *************/
+body {
+	font-family: Georgia, serif;
+	background-color: #e5f2d8;
+	color: #312c29;
+}
+
+div {
+	width: 960px;
+	margin: auto;
+	overflow: hidden;
+	padding: 20px 0;
+}
+
+article {
+	padding: 20px;
+	float: left;
+	width: 440px;
+}
+
+/***************** header styles ****************/
+
+header {
+  background-color: #00af5a;
+}
+
+header h1 {
+	width: 960px;
+	margin: auto;
+}
+
+header h1 img {
+	display: block;
+}
+
+/***************** navigation styles ****************/
+
+nav {
+ background-color: black;
+}
+
+nav ul {
+	width: 960px;
+	background-color: black;
+	overflow: hidden;
+	margin: auto;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	padding: 17px 20px;
+	border-right: 2px solid #7bcfcf;
+}
+
+nav ul li:last-of-type a {
+	border-right: none;
+}
+
+nav ul li a:hover {
+	color: #c558ad;
+}
+
+/***************** typography ****************/
+
+h2 {
+	font-size: 30px;
+	color:#c558ad;
+	font-weight: bold;
+	margin-bottom: 16px;
+}
+
+p {
+	line-height: 22px;
+	margin-bottom: 16px;
+}
+
+/***************** top section styles ****************/
+
+#top div {
+	background-color: #f8fff1;
+}
+
+label, input {
+	display: block;
+}
+
+label {
+	font-weight: bold;
+}
+
+
+/***************** middle section styles ****************/
+
+#middle {
+	background-color: #625244;
+	color: #f8fff1;
+}
+
+#middle div {
+	background-color: #584a3d;
+}
+
+#middle h2, th {
+	color: #90f3f3;
+}
